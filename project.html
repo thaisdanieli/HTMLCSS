@@ -1,16 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<!-- Define o tipo de documento como HTML5 e especifica que o idioma principal da página é português brasileiro. -->
 
 <head>
     <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8, garantindo suporte a caracteres especiais. -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização para dispositivos móveis, garantindo que a largura da página seja ajustada ao tamanho da tela. -->
+
     <title>Document</title>
+    <!-- Define o título da página que será exibido na aba do navegador. -->
 
     <style>
+        /* Bloco de estilo CSS embutido na página. */
+
         * {
             margin: 0;
             padding: 0;
         }
+
+        /* Reseta o margin e padding de todos os elementos para garantir consistência no layout entre navegadores. */
 
         #heading div {
             width: 90%;
@@ -19,9 +29,14 @@
             margin: 0 auto;
         }
 
+        /* Estiliza o container interno do cabeçalho (#heading), configurando sua largura para 90%, 
+        utilizando Flexbox para alinhamento e centralizando o conteúdo horizontalmente. */
+
         #heading {
             background: rgba(0, 0, 0, 0.5);
         }
+
+        /* Aplica um fundo semitransparente preto ao cabeçalho (#heading). */
 
         body {
             background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/8e8ff9d3-17b4-4ce1-b571-06ba4e025cca/web_collection/BR-pt-20241125-TRIFECTA-cedd7a40-9b73-41bd-941d-838e228d53a4_large.jpg);
@@ -29,31 +44,53 @@
             background-position: top center;
         }
 
+        /* Define uma imagem de fundo para o corpo da página, configurando-a para cobrir toda a área visível 
+        e centralizando-a no topo horizontalmente. */
+
         #heading .h1 {
             padding: 15px 0;
             font-size: 20px;
             text-transform: uppercase;
         }
 
+        /* Aplica espaçamento vertical interno (padding) de 15px aos elementos <h1> com a classe "h1", 
+        define o tamanho da fonte como 20px e transforma o texto para letras maiúsculas. */
+
         #heading a {
             color: #fff;
             text-decoration: none;
             font-family: sans-serif;
         }
+
+        /* Estiliza os links (<a>) dentro do cabeçalho (#heading), configurando a cor do texto como branco (#fff), 
+        removendo sublinhados (text-decoration: none) e definindo a fonte como sans-serif. */
     </style>
 
 </head>
 
 <body>
+    <!-- Corpo do documento HTML. -->
+
     <header id="heading">
+        <!-- Define o cabeçalho da página com o ID "heading". -->
+
         <div>
+            <!-- Container para organizar o conteúdo do cabeçalho. -->
+
             <h1 class="h1">
+                <!-- Título principal no cabeçalho, estilizado com a classe "h1". -->
+
                 <a href="#">
+                    <!-- Link no título principal que, ao clicar, direciona para o mesmo local (# é um placeholder para links vazios). -->
                     Netflix
                 </a>
             </h1>
+
             <h2 class="h1">
+                <!-- Título secundário no cabeçalho, também estilizado com a classe "h1". -->
+
                 <a href="#">
+                    <!-- Link no título secundário que também direciona para o mesmo local (#). -->
                     Netflix
                 </a>
             </h2>

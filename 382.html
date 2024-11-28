@@ -1,45 +1,135 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+<!-- Define o tipo de documento como HTML5 e especifica o idioma principal da página como português do Brasil. -->
 
 <head>
     <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres da página como UTF-8, permitindo o uso de caracteres especiais, como acentos. -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Faz a página ser responsiva, ajustando a largura ao tamanho da tela do dispositivo. -->
+
     <title>Document</title>
+    <!-- Define o título da página, que aparecerá na aba do navegador. -->
 
     <style>
+        /* Define estilos CSS diretamente no cabeçalho da página. */
+
+        /*
+        .section-one,
+        .section-two {
+            box-sizing: border-box;
+        }
+        */
+        /* Comentado: Altera o modelo de caixa para incluir bordas e preenchimentos no cálculo do tamanho total (não utilizado neste código). */
+
         .section-one {
+            /* Define o estilo para os elementos da classe "section-one". */
+
             width: 200px;
+            /* Define a largura da seção como 200 pixels. */
+
             height: 150px;
+            /* Define a altura da seção como 150 pixels. */
+
             background-color: deeppink;
+            /* Define a cor de fundo como rosa intenso. */
+
             background-image: url(https://corporate.walmart.com/content/corporate/en_us/purpose/sustainability/planet/nature/jcr:content/par/image_2_0.img.png/1693432526985.png);
+            /* Define uma imagem de fundo para a seção. */
+
             color: white;
+            /* Define a cor do texto como branco. */
+
             background-size: cover;
+            /* Faz com que a imagem de fundo cubra toda a seção. */
+
             background-position: center center;
+            /* Centraliza a imagem de fundo horizontal e verticalmente. */
+
+            /*
             border: 5px solid black;
-            padding: 15px;
+            border-bottom-width: 10px;
+            border-bottom-style: solid;
+            */
+            /* Comentado: Configurações de borda que foram substituídas por outras propriedades. */
+
+            border-style: solid;
+            /* Define o estilo da borda como sólido. */
+
+            border-width: 10px;
+            /* Define a largura das bordas como 10 pixels. */
+
+            border-bottom-color: firebrick;
+            /* Define a cor da borda inferior como "firebrick" (vermelho tijolo). */
+
+            border-left-color: blue;
+            /* Define a cor da borda esquerda como azul. */
+
+            /* padding: T D B E */
+            padding: 15px 0 10px;
+            /* Define o preenchimento interno (espaço entre o conteúdo e a borda): 
+               - 15px no topo, 
+               - 0px à direita,
+               - 10px embaixo,
+               - não especificado à esquerda (assume 0px). */
+
             margin: 20px;
+            /* Define uma margem externa de 20 pixels em todos os lados da seção. */
         }
 
         .section-two {
+            /* Define o estilo para os elementos da classe "section-two". */
+
             background: cyan;
+            /* Define a cor de fundo como ciano (azul claro). */
+
             width: 200px;
+            /* Define a largura da seção como 200 pixels. */
+
             height: 150px;
+            /* Define a altura da seção como 150 pixels. */
+
             background-size: cover;
+            /* Faz com que a imagem de fundo (caso exista) cubra toda a seção. */
+
             background-position: center center;
+            /* Centraliza a imagem de fundo horizontal e verticalmente. */
+
             border: 1px solid red;
+            /* Define uma borda de 1 pixel, sólida e vermelha ao redor da seção. */
+
             border-bottom-width: 10px;
+            /* Define a largura da borda inferior como 10 pixels. */
+
             border-bottom-color: firebrick;
+            /* Define a cor da borda inferior como "firebrick" (vermelho tijolo). */
+
             padding: 15px;
+            /* Define um preenchimento interno de 15 pixels em todos os lados. */
+
             margin: 20px;
+            /* Define uma margem externa de 20 pixels em todos os lados da seção. */
         }
     </style>
 </head>
 
 <body>
-    <section class="section-one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptates! Accusantium
-        rerum id, rem vitae voluptatibus sint voluptas sequi? Accusamus laboriosam officia modi expedita tempore, harum
-        sunt dicta perspiciatis eius!</section>
-    <section class="section-two">2</section>
+    <!-- Define o corpo da página, onde os elementos visíveis são exibidos. -->
+
+    <section class="section-one">
+        <!-- Cria uma seção com a classe "section-one". -->
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, voluptates! Accusantium rerum id, rem vitae
+        voluptatibus sint voluptas sequi? Accusamus laboriosam officia modi expedita tempore, harum sunt dicta
+        perspiciatis eius!
+        <!-- Conteúdo de exemplo dentro da seção, usado para demonstração de layout. -->
+    </section>
+
+    <section class="section-two">
+        <!-- Cria uma seção com a classe "section-two". -->
+        2
+        <!-- Texto simples dentro da seção para demonstração de layout. -->
+    </section>
 </body>
 
 </html>
