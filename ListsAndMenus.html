@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<!-- Define o tipo de documento como HTML5 e especifica que o idioma principal é português brasileiro. -->
+
+<head>
+    <meta charset="UTF-8">
+    <!-- Define a codificação de caracteres como UTF-8 para suportar caracteres especiais. -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a visualização para dispositivos móveis, garantindo que o layout se ajuste ao tamanho da tela. -->
+
+    <title>Document</title>
+    <!-- Define o título da página, que será exibido na aba do navegador. -->
+
+    <style>
+        /* Bloco de estilo CSS embutido. */
+
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Remove o margin e padding padrão de todos os elementos para uniformizar o layout. */
+
+        nav {
+            background: black;
+            height: 50px;
+        }
+
+        /* Define um fundo preto e altura de 50px para a barra de navegação (<nav>). */
+
+        nav ul li a {
+            color: #ffffff;
+            /* Define a cor do texto dos links como branco. */
+
+            text-decoration: none;
+            /* Remove o sublinhado dos links. */
+
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            /* Define uma fonte padrão, priorizando fontes disponíveis no sistema do usuário. */
+
+            background: red;
+            /* Define um fundo vermelho para os links. */
+
+            padding: 10px;
+            /* Adiciona espaçamento interno ao redor do texto nos links. */
+
+            display: block;
+            /* Faz com que os links ocupem toda a largura do elemento pai (útil para interação em blocos). */
+
+            text-transform: uppercase;
+            /* Converte o texto dos links para letras maiúsculas. */
+        }
+
+        nav a:hover {
+            background: rgba(0, 0, 0, 0.6);
+        }
+
+        /* Altera o fundo dos links quando o cursor do mouse passa por cima, aplicando um efeito de hover com fundo preto translúcido. */
+
+        nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Configura o elemento <nav> como um container flexível, centralizando os itens horizontal e verticalmente. */
+
+        nav ul {
+            display: flex;
+            /* Define a lista (<ul>) como flexível para alinhar os itens horizontalmente. */
+
+            list-style-type: none;
+            /* Remove os marcadores padrão da lista. */
+
+            background: red;
+            /* Define um fundo vermelho para a lista. */
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <!-- Elemento de navegação principal. -->
+
+        <ul>
+            <!-- Lista não ordenada para os itens do menu de navegação. -->
+
+            <li><a href="#">Home</a></li>
+            <!-- Um item do menu com um link para a página inicial (placeholder "#"). -->
+
+            <li><a href="#">About</a></li>
+            <!-- Outro item do menu com um link para a página "About" (placeholder "#"). -->
+
+            <li><a href="#">Products</a></li>
+            <!-- Outro item do menu com um link para a página "Products" (placeholder "#"). -->
+        </ul>
+    </nav>
+
+    <!-- Lista não ordenada (bullet points). -->
+    <ul>
+        <li>Item 1 </li>
+        <!-- Primeiro item da lista. -->
+
+        <li>Item 3 </li>
+        <!-- Segundo item da lista. -->
+
+        <li>Item 2 </li>
+        <!-- Terceiro item da lista. -->
+    </ul>
+
+    <!-- Lista ordenada com um tipo específico e início personalizado. -->
+    <ol type="a" start="20">
+        <!-- Define a lista com letras (type="a") e inicia a numeração no item 20 (start="20"). -->
+
+        <li>Item 1 </li>
+        <!-- Primeiro item da lista ordenada. -->
+
+        <li>Item 3 </li>
+        <!-- Segundo item da lista ordenada. -->
+
+        <li>Item 2 </li>
+        <!-- Terceiro item da lista ordenada. -->
+    </ol>
+
+    <!-- Lista de definição: usada para exibir termos e suas descrições. -->
+    <dl>
+        <dt>Coffee</dt>
+        <!-- Define o termo "Coffee". -->
+
+        <dd>Bebida preta quente</dd>
+        <!-- Descrição do termo "Coffee". -->
+    </dl>
+
+    <!-- Parágrafo com texto de exemplo (Lorem Ipsum). -->
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magni omnis adipisci illum nesciunt officia ab
+        temporibus quaerat
+        <a style="padding:20px 0; background:red;display:block">voluptatem</a>
+        <!-- Link estilizado com fundo vermelho e display como bloco, destacado no meio do parágrafo. -->
+
+        accusantium minus doloribus dolor doloremque expedita, blanditiis tempore odio eos
+        labore perspiciatis.
+    </p>
+</body>
+
+</html>
