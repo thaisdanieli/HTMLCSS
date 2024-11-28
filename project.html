@@ -12,13 +12,22 @@
             padding: 0;
         }
 
-        #heading {
-            background: #e50914
+        #heading div {
+            display: flex;
+            background: #e50914;
+            justify-content: space-between;
         }
 
-        #heading h1 {
-            font-size: 16px;
+        #heading .h1 {
+            padding: 15px;
+        }
+
+        #heading a {
+            font-size: 20px;
             text-transform: uppercase;
+            color: #fff;
+            text-decoration: none;
+            font-family: sans-serif;
         }
     </style>
 
@@ -26,11 +35,18 @@
 
 <body>
     <header id="heading">
-        <h1>
-            <a href="#">
-                Netflix
-            </a>
-        </h1>
+        <div>
+            <h1 class="h1">
+                <a href="#">
+                    Netflix
+                </a>
+            </h1>
+            <h2 class="h1">
+                <a href="#">
+                    Netflix
+                </a>
+            </h2>
+        </div>
     </header>
 </body>
 
